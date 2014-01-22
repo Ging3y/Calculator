@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>ACER_STUDENT_4</Machine>
+    <WindowsUser>acerstudent4</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>A8C8D9AB49051EBF0A22FF8964E71DE6EA2F2670E1B5D7C612328ED19828DB3E</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>75e2fc4e-fd91-4c89-90df-d9d989ffcc02_1.0.0.0_neutral__9c7j8z9zs8gs6</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>75e2fc4e-fd91-4c89-90df-d9d989ffcc02_9c7j8z9zs8gs6!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>75e2fc4e-fd91-4c89-90df-d9d989ffcc02</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=acerstudent4</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\acerstudent4\Desktop\Repos\Calculator\Calculator\Calculator\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-01-22T21:34:06.619</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\acerstudent4\Desktop\Repos\Calculator\Calculator\Calculator\bin\Debug\Calculator.exe">
+      <PackagePath>Calculator.exe</PackagePath>
+      <Modified>2014-01-22T21:54:10.796</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\acerstudent4\Desktop\Repos\Calculator\Calculator\Calculator\bin\Debug\Calculator.pdb">
+      <PackagePath>Calculator.pdb</PackagePath>
+      <Modified>2014-01-22T21:54:10.774</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\acerstudent4\Desktop\Repos\Calculator\Calculator\Calculator\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T04:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\acerstudent4\Desktop\Repos\Calculator\Calculator\Calculator\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T04:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\acerstudent4\Desktop\Repos\Calculator\Calculator\Calculator\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T04:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\acerstudent4\Desktop\Repos\Calculator\Calculator\Calculator\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T04:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\acerstudent4\Desktop\Repos\Calculator\Calculator\Calculator\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2014-01-22T21:31:29.719</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\acerstudent4\Desktop\Repos\Calculator\Calculator\Calculator\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-27T00:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\acerstudent4\Desktop\Repos\Calculator\Calculator\Calculator\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2014-01-22T21:54:09.966</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\acerstudent4\Desktop\Repos\Calculator\Calculator\Calculator\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-01-22T21:34:06.538</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

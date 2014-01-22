@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="Calculator.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Calculator"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Button Content="ADD" HorizontalAlignment="Left" Margin="1127,573,0,0" VerticalAlignment="Top" Width="200" Height="150" FontSize="50" Click="Button_Click"/>
+        
+        <Border BorderThickness="1" BorderBrush="Blue">
+        <TextBlock x:Name="outPutText" HorizontalAlignment="Left" Margin="55,37,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="154" Width="1272" FontSize="72" FontFamily="Global User Interface" TextAlignment="Right"/>
+        </Border>
+        
+        <TextBox x:Name="inPut1" HorizontalAlignment="Left" Margin="298,398,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="99" Width="236" UseLayoutRounding="False" FontSize="70"/>
+        <TextBox x:Name="input2" HorizontalAlignment="Left" Margin="571,398,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="99" Width="236" FontSize="70"/>
+
+    </Grid>
+</Page>
