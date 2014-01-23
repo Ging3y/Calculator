@@ -37,7 +37,7 @@ namespace Calculator
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            outPutText.Text = Convert.ToString(Convert.ToInt32(inPut1.Text) + Convert.ToInt32(input2.Text));
+            outPutText.Text = Convert.ToString(Convert.ToInt64(inPut1.Text) + Convert.ToInt64(input2.Text));
         }
     }
 }
