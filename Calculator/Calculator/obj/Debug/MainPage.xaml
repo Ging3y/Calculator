@@ -9,14 +9,21 @@
 
     <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
         <Button x:ConnectionId='1' x:Name="addButton" Content="+" HorizontalAlignment="Left" Margin="1166,618,0,0" VerticalAlignment="Top" Width="200" Height="150" FontSize="50"                     />
-
-
-        <TextBox x:Name="inPut1" HorizontalAlignment="Left" Margin="298,398,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="99" Width="236" UseLayoutRounding="False" FontSize="70"/>
-        <TextBox x:Name="input2" HorizontalAlignment="Left" Margin="571,398,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="99" Width="236" FontSize="70"/>
         <Border x:Name="outPutBorder" BorderBrush="Gray" BorderThickness="3" HorizontalAlignment="Left" Height="96" Margin="10,9,0,0" VerticalAlignment="Top" Width="1346">
             <TextBlock x:Name="outPutText" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="179" Width="1336" FontSize="72" FontFamily="Global User Interface" TextAlignment="Right" Margin="-1,9,0,0"/>
         </Border>
         <Button x:Name="subtractButton" Content="-" HorizontalAlignment="Left" Margin="1166,447,0,0" VerticalAlignment="Top" Height="150" Width="200" FontSize="50"/>
+        <Button x:ConnectionId='2' x:Name="oneButton" Content="1" HorizontalAlignment="Left" Margin="35,177,0,0" VerticalAlignment="Top" Width="200" Height="110" FontSize="80" VerticalContentAlignment="Bottom"                        />
+        <Button x:ConnectionId='3' x:Name="twoButton" Content="2" HorizontalAlignment="Left" Margin="278,177,0,0" VerticalAlignment="Top" Width="200" Height="110" FontSize="80"                         VerticalContentAlignment="Bottom"/>
+        <Button x:ConnectionId='4' x:Name="threeButton" Content="3" HorizontalAlignment="Left" Margin="526,177,0,0" VerticalAlignment="Top" Width="200" Height="110" FontSize="80"                           VerticalContentAlignment="Bottom"/>
+        <Button x:ConnectionId='5' x:Name="fourButton" Content="4" HorizontalAlignment="Left" Margin="35,317,0,0" VerticalAlignment="Top" Width="200" Height="110" FontSize="80"                          VerticalContentAlignment="Bottom"/>
+        <Button x:ConnectionId='6' x:Name="fiveButton" Content="5" HorizontalAlignment="Left" Margin="278,317,0,0" VerticalAlignment="Top" Width="200" Height="110" FontSize="80"                          VerticalContentAlignment="Bottom"/>
+        <Button x:ConnectionId='7' x:Name="sixButton" Content="6" HorizontalAlignment="Left" Margin="526,317,0,0" VerticalAlignment="Top" Width="200" Height="110" FontSize="80"                         VerticalContentAlignment="Bottom"/>
+        <Button x:ConnectionId='8' x:Name="sevenButton" Content="7" HorizontalAlignment="Left" Margin="35,458,0,0" VerticalAlignment="Top" Width="200" Height="110" FontSize="80"                           VerticalContentAlignment="Bottom"/>
+        <Button x:ConnectionId='9' x:Name="eightButton" Content="8" HorizontalAlignment="Left" Margin="278,458,0,0" VerticalAlignment="Top" Width="200" Height="110" FontSize="80"                           VerticalContentAlignment="Bottom"/>
+        <Button x:ConnectionId='10' x:Name="nineButton" Content="9" HorizontalAlignment="Left" Margin="526,458,0,0" VerticalAlignment="Top" Width="200" Height="110" FontSize="80"                          VerticalContentAlignment="Bottom"/>
+        <Button x:ConnectionId='11' x:Name="zeroButton" Content="0" HorizontalAlignment="Left" Margin="278,592,0,0" VerticalAlignment="Top" Width="200" Height="110" FontSize="80"                         VerticalContentAlignment="Bottom"/>
+        <Button x:ConnectionId='12' x:Name="clearButton" Content="C" HorizontalAlignment="Left" Margin="1166,277,0,0" VerticalAlignment="Top" Width="190" Height="150" FontSize="80"                           VerticalContentAlignment="Bottom" RenderTransformOrigin="0.471,0.527"/>
 
 
     </Grid>

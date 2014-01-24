@@ -22,11 +22,11 @@
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\acerstudent4\Desktop\Repos\Calculator\Calculator\Calculator\bin\Debug\Calculator.exe">
       <PackagePath>Calculator.exe</PackagePath>
-      <Modified>2014-01-23T21:24:40.731</Modified>
+      <Modified>2014-01-24T02:05:50.146</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\acerstudent4\Desktop\Repos\Calculator\Calculator\Calculator\bin\Debug\Calculator.pdb">
       <PackagePath>Calculator.pdb</PackagePath>
-      <Modified>2014-01-23T21:24:40.708</Modified>
+      <Modified>2014-01-24T02:05:50.121</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\acerstudent4\Desktop\Repos\Calculator\Calculator\Calculator\Assets\Logo.png">
       <PackagePath>Assets\Logo.png</PackagePath>
@@ -58,7 +58,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\acerstudent4\Desktop\Repos\Calculator\Calculator\Calculator\bin\Debug\MainPage.xaml">
       <PackagePath>MainPage.xaml</PackagePath>
-      <Modified>2014-01-23T21:24:39.811</Modified>
+      <Modified>2014-01-24T02:04:00.154</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\acerstudent4\Desktop\Repos\Calculator\Calculator\Calculator\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>

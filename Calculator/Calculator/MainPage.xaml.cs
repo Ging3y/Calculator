@@ -21,9 +21,17 @@ namespace Calculator
     /// </summary>
     public sealed partial class MainPage : Page
     {
+
+        //Vairables
+
+        string displayNumber;
+        Int32 numberOne, numberTwo;
+        Int64 answer;
+
         public MainPage()
         {
             this.InitializeComponent();
+            displayNumber = "";
         }
 
         /// <summary>
@@ -37,7 +45,74 @@ namespace Calculator
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            outPutText.Text = Convert.ToString(Convert.ToInt64(inPut1.Text) + Convert.ToInt64(input2.Text));
+
+        }
+
+        private void twoButton_Click(object sender, RoutedEventArgs e)
+        {
+            displayNumber = displayNumber + "2";
+            outPutText.Text = displayNumber;
+        }
+
+        private void oneButton_Click(object sender, RoutedEventArgs e)
+        {
+            displayNumber = displayNumber + "1";
+            outPutText.Text = displayNumber;
+        }
+
+        private void threeButton_Click(object sender, RoutedEventArgs e)
+        {
+            displayNumber = displayNumber + "3";
+            outPutText.Text = displayNumber;
+        }
+
+        private void fourButton_Click(object sender, RoutedEventArgs e)
+        {
+            displayNumber = displayNumber + "4";
+            outPutText.Text = displayNumber;
+        }
+
+        private void fiveButton_Click(object sender, RoutedEventArgs e)
+        {
+            displayNumber = displayNumber + "5";
+            outPutText.Text = displayNumber;
+
+        }
+
+        private void sixButton_Click(object sender, RoutedEventArgs e)
+        {
+            displayNumber = displayNumber + "6";
+            outPutText.Text = displayNumber;
+        }
+
+        private void sevenButton_Click(object sender, RoutedEventArgs e)
+        {
+            displayNumber = displayNumber + "7";
+            outPutText.Text = displayNumber;
+        }
+
+        private void eightButton_Click(object sender, RoutedEventArgs e)
+        {
+            displayNumber = displayNumber + "8";
+            outPutText.Text = displayNumber;
+        }
+
+        private void nineButton_Click(object sender, RoutedEventArgs e)
+        {
+            displayNumber = displayNumber + "9";
+            outPutText.Text = displayNumber;
+        }
+
+        private void tenButton_Click(object sender, RoutedEventArgs e)
+        {
+            displayNumber = displayNumber + "0";
+            outPutText.Text = displayNumber;
+        }
+
+        private void clearButton_Click(object sender, RoutedEventArgs e)
+        {
+            displayNumber = "";
+            outPutText.Text = displayNumber;
         }
     }
 }
