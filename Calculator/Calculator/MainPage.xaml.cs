@@ -24,7 +24,7 @@ namespace Calculator
 
         //Vairables
 
-        string displayNumber;
+        string displayNumber, mathType;
         Int32 numberOne, numberTwo;
         Int64 answer;
 
@@ -41,11 +41,6 @@ namespace Calculator
         /// property is typically used to configure the page.</param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
         }
 
         private void twoButton_Click(object sender, RoutedEventArgs e)
@@ -112,7 +107,56 @@ namespace Calculator
         private void clearButton_Click(object sender, RoutedEventArgs e)
         {
             displayNumber = "";
+            numberOne = 0;
+            numberTwo = 0;
             outPutText.Text = displayNumber;
+        }
+
+        private void addButton_Click(object sender, RoutedEventArgs e)
+        {
+            numberOne = Convert.ToInt32(displayNumber);
+            displayNumber = "";
+            outPutText.Text = displayNumber;
+            mathType = "addition";
+            
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void equalsButton_Click(object sender, RoutedEventArgs e)
+        {
+            if (mathType == "addition")
+            {
+                numberTwo = Convert.ToInt32(displayNumber);
+                answer = numberOne + numberTwo;
+                displayNumber = Convert.ToString(answer);
+                outPutText.Text = displayNumber;
+            }
+
+            if (mathType == "subtraction")
+            {
+                numberTwo = Convert.ToInt32(displayNumber);
+                answer = numberOne - numberTwo;
+                displayNumber = Convert.ToString(answer);
+                outPutText.Text = displayNumber;
+            }
+
+
+
+
+        }
+
+        private void subtractButton_Click(object sender, RoutedEventArgs e)
+        {
+
+            numberOne = Convert.ToInt32(displayNumber);
+            displayNumber = "";
+            outPutText.Text = displayNumber;
+            mathType = "subtraction";
+
         }
     }
 }
